@@ -1,0 +1,25 @@
+.scrollbar{
+    scrollbar-width: thin;
+    scrollbar-color: #3b83f6 white
+}
+.dt-length select{
+    background-color: white;
+    color: #242d3b;
+    border: 1px solid #3b83f6;
+}#dt-search-0{
+    color: #242d3b;
+    border: 1px solid #3b83f6;
+    background-color: transparent;
+}#table thead{
+    color: #3b83f6;
+    background-color: white;
+}table tbody tr td{
+    color: #242d3b;
+    background-color: white;
+}.dt-paging a{
+    color: #3b83f6;
+    background-color: white;
+}.dt-paging a:hover{
+    color: white;
+    background-color: #3b83f6;
+}
