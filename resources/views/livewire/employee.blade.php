@@ -1,8 +1,8 @@
 <div
-    class="add_employeeModal grow-1 absolute w-screen h-screen top-[0] left-0 z-40 hidden">
+x-cloak wire:ignore.self class="add_employeeModal grow-1 absolute w-screen h-screen top-[0] left-0 z-40 hidden">
     <div class="absolute w-screen h-screen top-0 left-0 bg-[#000000] opacity-40 z-20"></div>
     <div class="flex justify-center items-center h-dvh w-screen">
-        <form wire:submit.prevent="employees" enctype="multipart/form-data" class="add_employeeForm border-2 border-[#3b83f685] px-5 pb-5 shadow-md shadow-blue-300 bg-white z-30 translate-y-[-100%] transition-all duration-500 ">
+        <form wire:submit.prevent="employees" enctype="multipart/form-data" x-cloak wire:ignore.self class="add_employeeForm border-2 border-[#3b83f685] px-5 pb-5 shadow-md shadow-blue-300 bg-white z-30 translate-y-[-100%] transition-all duration-500 ">
             <div class="logo flex items-center w-full flex-col pb-5">
                 <span><img src="{{ asset('assets/img/logo_newgen.png') }}" alt="logo" class="w-[150px]"></span>
             </div>

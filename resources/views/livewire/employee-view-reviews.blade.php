@@ -1,4 +1,4 @@
-<div class="p-6 EMPLOYEE_REVIEWS_DIV" @if(!$editing) style="display: none;" @endif>
+<div class="p-6 EMPLOYEE_REVIEWS_DIV" x-cloak>
     <h2 class="text-2xl font-semibold text-gray-700 mb-4">Employee Reviews</h2>
 
     @if (session()->has('message'))

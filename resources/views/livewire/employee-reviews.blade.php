@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center h-dvh w-screen REVIEWS_DIV" style="display: none">
+<div class="flex justify-center items-center h-dvh w-screen REVIEWS_DIV"  x-cloak>
     <form wire:submit.prevent="submit" class="border-2 border-[#3b83f685] px-5 pb-5 shadow-md shadow-blue-300">
         <!-- Title / Header -->
         <div class="flex items-center justify-center w-full flex-col pb-5 pt-5">
